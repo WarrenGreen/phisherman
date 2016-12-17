@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Off The Hook",
+  "description": "Detect phishing sites using visual inspection and url analysis.",
+  "version": "0.12",
+  "icons": {
+    "16": "media/icon-16.png",
+    "32": "media/icon-32.png",
+    "48": "media/icon-48.png",
+    "128": "media/icon-128.png",
+    "300": "media/icon-300.png" },
+  "permissions": [
+    "activeTab",
+    "<all_urls>",
+    "tabs",
+    "notifications",
+    "webNavigation",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["lib/jquery.js","background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Detecting phishing sites.",
+    "default_popup": "popup.html"
+  }
+}
