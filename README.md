@@ -17,5 +17,5 @@ I created Off The Hook to have a proactive response to phishing sites. Rather th
 ![An alert instance](./chrome/media/screenshots/screenshot3.png "An alert instance.")
 <br/>
 
-Logo
+###Logo
 ![Logo](./chrome/media/icon-128.png "Logo")
