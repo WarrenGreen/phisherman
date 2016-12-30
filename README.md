@@ -1,5 +1,4 @@
-# Phisher
-## Computer vision approach to phishing detection.
+# Phisher: Computer vision approach to phishing detection.
 
 Using SIFT and a FLANN kd-tree to detect phishing sites by comparing visited paged to known site UIs and then comparing the URL. If a visited page visually looks like a known site but doesn't have a URL known for that page, then an alert is shown to the user.
 
